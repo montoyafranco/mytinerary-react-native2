@@ -4,7 +4,7 @@ import { SwiperFlatList } from 'react-native-swiper-flatlist';
 
 const Carr = () => (
   <View style={styles.container}>
-    <SwiperFlatList autoplay autoplayDelay={2} autoplayLoop index={2} showPagination>
+    <SwiperFlatList autoplay autoplayDelay={2} autoplayLoop index={2} >
       <View style={[styles.child, { backgroundColor: 'tomato' }]}>
         <Text style={styles.text}>1</Text>
       </View>
@@ -17,6 +17,26 @@ const Carr = () => (
       <View style={[styles.child, { backgroundColor: 'teal' }]}>
         <Text style={styles.text}>4</Text>
       </View>
+      <View style={[styles.child, { backgroundColor: 'teal' }]}>
+        <Text style={styles.text}>5</Text>
+      </View>
+      <View style={[styles.child, { backgroundColor: 'teal' }]}>
+        <Text style={styles.text}>5</Text>
+      </View>
+      
+      <View style={[styles.child, { backgroundColor: 'teal' }]}>
+        <Text style={styles.text}>5</Text>
+      </View>
+      
+      <View style={[styles.child, { backgroundColor: 'teal' }]}>
+        <Text style={styles.text}>5</Text>
+      </View>
+      
+      <View style={[styles.child, { backgroundColor: 'teal' }]}>
+        <Text style={styles.text}>5</Text>
+      </View>
+      
+      
     </SwiperFlatList>
   </View>
 );
