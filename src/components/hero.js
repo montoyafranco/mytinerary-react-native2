@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View, ScrollView, ImageBackground, Button ,Image} from 'react-native';
+// import Button1 from './buttonHome';
 
 function Hero() {
   return (
@@ -12,8 +13,7 @@ function Hero() {
           </View>
           <Text style={styles.text}>Find your perfect trip</Text>
           <View style={styles.container}>
-
-            <View style={[{ width: "20%", margin: 10, backgroundColor: "#ff6536", fontSize: 30 }]}>
+          <View style={[{ width: "20%", margin: 10, backgroundColor: "#ff6536", fontSize: 30 }]}>
               <Button
                 title="Cities"
                 color="#69B6DD"
@@ -21,6 +21,8 @@ function Hero() {
                 fontSize={30}
               />
             </View>
+
+            
           </View>
         {/* </ImageBackground> */}
       </View>
