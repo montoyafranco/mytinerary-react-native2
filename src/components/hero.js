@@ -11,20 +11,21 @@ function Hero() {
           <View >
             <Image  style={[{ width: "100%", margin: 0}]} source={require("../../assets/images/mapa-mundi.gif") }></Image>
           </View>
-          <Text style={styles.text}>Find your perfect trip</Text>
+         
           <View style={styles.container}>
-          <View style={[{ width: "20%", margin: 10, backgroundColor: "#ff6536", fontSize: 30 }]}>
+          {/* <View style={[{ width: "20%", margin: 10, backgroundColor: "#ff6536", fontSize: 30 }]}>
               <Button
                 title="Cities"
                 color="#69B6DD"
                 size={30}
                 fontSize={30}
               />
-            </View>
+            </View> */}
 
             
           </View>
         {/* </ImageBackground> */}
+        <Text style={styles.text2}>Find your perfect trip, designed by insiders who know and love their cities</Text>
       </View>
     </ScrollView>
   )
@@ -47,6 +48,11 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 25,
     textAlign: 'center'
+  },
+  text2: {
+    fontSize: 30,
+    textAlign: 'center',
+    marginBottom:100
   },
   image: {
     height: '100%'

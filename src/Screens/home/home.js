@@ -6,12 +6,20 @@ import React from 'react'
 import Hero from '../../components/hero';
 
 
-function Home(){
+function Home({ navigation }){
   return(
     <ScrollView>
       <ImageBackground style={{flex:1}} source={require("../../../assets/images/fondo-combi2.png")}>
       {/* <Navbar/> */}
       <Hero />
+      <View >
+        <Button
+          onPress={() => navigation.navigate('Cities')}
+          title="Cities"
+          color="#69B6DD"
+        />
+
+      </View>
       <Carr/>
       
       </ImageBackground> 
